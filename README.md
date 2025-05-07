@@ -97,26 +97,26 @@ if(st.count())
 ```
 
 ## `Multiset` 
-It is can store multiple copy of a value. The basic syntax of set: 
+It is can store multiple copy of a value. The basic syntax of multiset: 
 ```cpp
 multiset<type>multiset_name();
 ```
-Let's create a set now. 
+Let's create a multiset now. 
 ```cpp
 set<int>mst();
 ```
-This is an empty set. Let's populate the set. 
+This is an empty set. Let's populate the multiset. 
 ```cpp
 mst.insert(1);
 mst.insert(2);
 mst.insert(3);
 mst.insert(2);
 ```
-To know the size of the set-
+To know the size of the multiset-
 ```cpp
 mst.size()
 ```
-Now let's print the value of set.
+Now let's print the value of multiset.
 ```cpp
 for (auto it:mst)
 {
@@ -205,20 +205,7 @@ map :
 3. erase()
 5. clear()
 
-stack :
-1. size()
-2. push()
-3. pop()
-4. empty()
-5. top()
 
-queue :
-1. size()
-2. push()
-3. pop()
-4. empty()
-5. front()
-6. back()
 
 Moreover we have unordered map, unordered set, deque etc. You are expected to know about them and solve problems as much as possible.  
 
